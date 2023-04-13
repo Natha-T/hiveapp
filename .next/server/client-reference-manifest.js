@@ -3209,11 +3209,11 @@ self.__RSC_MANIFEST={
   },
   "edgeSSRModuleMapping": {},
   "cssFiles": {
-    "/Users/n1c0/dev/goodhive-app/app/page": [
-      "static/css/app/page.css"
-    ],
     "/Users/n1c0/dev/goodhive-app/app/layout": [
       "static/css/app/layout.css"
+    ],
+    "/Users/n1c0/dev/goodhive-app/app/page": [
+      "static/css/app/page.css"
     ]
   },
   "clientModules": {
@@ -9697,6 +9697,13 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
+    "/Users/n1c0/dev/goodhive-app/app/globals.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
     "/Users/n1c0/dev/goodhive-app/app/components/button.tsx": {
       "id": "(app-client)/./app/components/button.tsx",
       "name": "*",
@@ -11350,13 +11357,6 @@ self.__RSC_MANIFEST={
       "name": "default",
       "chunks": [
         "static/css/app/page.css"
-      ]
-    },
-    "/Users/n1c0/dev/goodhive-app/app/globals.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
       ]
     }
   }

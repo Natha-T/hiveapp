@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Link from "next/link";
 
 import { NavBar } from "../components/nav-bar";
 
@@ -23,13 +22,13 @@ export default function LookingForTalent() {
       </main>
 
       <footer className="mx-5 text-sm">
-        <Link
+        <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
           rel="noopener noreferrer"
         >
           Powered by GoodHive
-        </Link>
+        </a>
       </footer>
     </div>
   );
