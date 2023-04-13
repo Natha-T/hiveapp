@@ -1755,7 +1755,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/add-base-path.js",
         "name": "*",
         "chunks": [
-          "app-client-internals:app-client-internals"
+          "app/looking-for-talent/page:app/looking-for-talent/page"
         ],
         "async": false
       },
@@ -1763,7 +1763,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/add-base-path.js",
         "name": "",
         "chunks": [
-          "app-client-internals:app-client-internals"
+          "app/looking-for-talent/page:app/looking-for-talent/page"
         ],
         "async": false
       },
@@ -1771,7 +1771,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/add-base-path.js",
         "name": "default",
         "chunks": [
-          "app-client-internals:app-client-internals"
+          "app/looking-for-talent/page:app/looking-for-talent/page"
         ],
         "async": false
       }
@@ -2873,7 +2873,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/normalize-trailing-slash.js",
         "name": "*",
         "chunks": [
-          "app-client-internals:app-client-internals"
+          "app/looking-for-talent/page:app/looking-for-talent/page"
         ],
         "async": false
       },
@@ -2881,7 +2881,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/normalize-trailing-slash.js",
         "name": "",
         "chunks": [
-          "app-client-internals:app-client-internals"
+          "app/looking-for-talent/page:app/looking-for-talent/page"
         ],
         "async": false
       },
@@ -2889,7 +2889,319 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/normalize-trailing-slash.js",
         "name": "default",
         "chunks": [
-          "app-client-internals:app-client-internals"
+          "app/looking-for-talent/page:app/looking-for-talent/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./app/components/button.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/components/button.tsx",
+        "name": "*",
+        "chunks": [
+          "app/design/page:app/design/page"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/components/button.tsx",
+        "name": "",
+        "chunks": [
+          "app/design/page:app/design/page"
+        ],
+        "async": false
+      },
+      "Button": {
+        "id": "(sc_client)/./app/components/button.tsx",
+        "name": "Button",
+        "chunks": [
+          "app/design/page:app/design/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./app/components/card.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/components/card.tsx",
+        "name": "*",
+        "chunks": [
+          "app/design/page:app/design/page"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/components/card.tsx",
+        "name": "",
+        "chunks": [
+          "app/design/page:app/design/page"
+        ],
+        "async": false
+      },
+      "Card": {
+        "id": "(sc_client)/./app/components/card.tsx",
+        "name": "Card",
+        "chunks": [
+          "app/design/page:app/design/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./app/components/icon-button.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/components/icon-button.tsx",
+        "name": "*",
+        "chunks": [
+          "app/design/page:app/design/page"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/components/icon-button.tsx",
+        "name": "",
+        "chunks": [
+          "app/design/page:app/design/page"
+        ],
+        "async": false
+      },
+      "IconButton": {
+        "id": "(sc_client)/./app/components/icon-button.tsx",
+        "name": "IconButton",
+        "chunks": [
+          "app/design/page:app/design/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./app/components/input.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/components/input.tsx",
+        "name": "*",
+        "chunks": [
+          "app/design/page:app/design/page"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/components/input.tsx",
+        "name": "",
+        "chunks": [
+          "app/design/page:app/design/page"
+        ],
+        "async": false
+      },
+      "Input": {
+        "id": "(sc_client)/./app/components/input.tsx",
+        "name": "Input",
+        "chunks": [
+          "app/design/page:app/design/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./app/components/nav-bar.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/components/nav-bar.tsx",
+        "name": "*",
+        "chunks": [
+          "app/design/page:app/design/page"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/components/nav-bar.tsx",
+        "name": "",
+        "chunks": [
+          "app/design/page:app/design/page"
+        ],
+        "async": false
+      },
+      "NavBar": {
+        "id": "(sc_client)/./app/components/nav-bar.tsx",
+        "name": "NavBar",
+        "chunks": [
+          "app/design/page:app/design/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./app/design/page.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/design/page.tsx",
+        "name": "*",
+        "chunks": [
+          "app/design/page:app/design/page"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/design/page.tsx",
+        "name": "",
+        "chunks": [
+          "app/design/page:app/design/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/design/page.tsx",
+        "name": "default",
+        "chunks": [
+          "app/design/page:app/design/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/add-locale.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/add-locale.js",
+        "name": "*",
+        "chunks": [
+          "app/looking-for-talent/page:app/looking-for-talent/page"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/add-locale.js",
+        "name": "",
+        "chunks": [
+          "app/looking-for-talent/page:app/looking-for-talent/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/add-locale.js",
+        "name": "default",
+        "chunks": [
+          "app/looking-for-talent/page:app/looking-for-talent/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/noop-head.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/noop-head.js",
+        "name": "*",
+        "chunks": [
+          "app/design/page:app/design/page"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/noop-head.js",
+        "name": "",
+        "chunks": [
+          "app/design/page:app/design/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/noop-head.js",
+        "name": "default",
+        "chunks": [
+          "app/design/page:app/design/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/get-domain-locale.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/get-domain-locale.js",
+        "name": "*",
+        "chunks": [
+          "app/looking-for-talent/page:app/looking-for-talent/page"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/get-domain-locale.js",
+        "name": "",
+        "chunks": [
+          "app/looking-for-talent/page:app/looking-for-talent/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/get-domain-locale.js",
+        "name": "default",
+        "chunks": [
+          "app/looking-for-talent/page:app/looking-for-talent/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/link.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "*",
+        "chunks": [
+          "app/looking-for-talent/page:app/looking-for-talent/page"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "",
+        "chunks": [
+          "app/looking-for-talent/page:app/looking-for-talent/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "default",
+        "chunks": [
+          "app/looking-for-talent/page:app/looking-for-talent/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/request-idle-callback.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/request-idle-callback.js",
+        "name": "*",
+        "chunks": [
+          "app/looking-for-talent/page:app/looking-for-talent/page"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/request-idle-callback.js",
+        "name": "",
+        "chunks": [
+          "app/looking-for-talent/page:app/looking-for-talent/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/request-idle-callback.js",
+        "name": "default",
+        "chunks": [
+          "app/looking-for-talent/page:app/looking-for-talent/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/use-intersection.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/use-intersection.js",
+        "name": "*",
+        "chunks": [
+          "app/looking-for-talent/page:app/looking-for-talent/page"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/use-intersection.js",
+        "name": "",
+        "chunks": [
+          "app/looking-for-talent/page:app/looking-for-talent/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/use-intersection.js",
+        "name": "default",
+        "chunks": [
+          "app/looking-for-talent/page:app/looking-for-talent/page"
         ],
         "async": false
       }
@@ -6817,7 +7129,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/add-base-path.js",
       "name": "*",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/looking-for-talent/page:app/looking-for-talent/page"
       ],
       "async": false
     },
@@ -6825,7 +7137,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/add-base-path.js",
       "name": "*",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/looking-for-talent/page:app/looking-for-talent/page"
       ],
       "async": false
     },
@@ -6833,7 +7145,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/add-base-path.js",
       "name": "",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/looking-for-talent/page:app/looking-for-talent/page"
       ],
       "async": false
     },
@@ -6841,7 +7153,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/add-base-path.js",
       "name": "",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/looking-for-talent/page:app/looking-for-talent/page"
       ],
       "async": false
     },
@@ -6849,7 +7161,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/add-base-path.js",
       "name": "default",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/looking-for-talent/page:app/looking-for-talent/page"
       ],
       "async": false
     },
@@ -6857,7 +7169,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/add-base-path.js",
       "name": "default",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/looking-for-talent/page:app/looking-for-talent/page"
       ],
       "async": false
     },
@@ -8929,7 +9241,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/normalize-trailing-slash.js",
       "name": "*",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/looking-for-talent/page:app/looking-for-talent/page"
       ],
       "async": false
     },
@@ -8937,7 +9249,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/normalize-trailing-slash.js",
       "name": "*",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/looking-for-talent/page:app/looking-for-talent/page"
       ],
       "async": false
     },
@@ -8945,7 +9257,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/normalize-trailing-slash.js",
       "name": "",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/looking-for-talent/page:app/looking-for-talent/page"
       ],
       "async": false
     },
@@ -8953,7 +9265,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/normalize-trailing-slash.js",
       "name": "",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/looking-for-talent/page:app/looking-for-talent/page"
       ],
       "async": false
     },
@@ -8961,7 +9273,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/normalize-trailing-slash.js",
       "name": "default",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/looking-for-talent/page:app/looking-for-talent/page"
       ],
       "async": false
     },
@@ -8969,7 +9281,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/normalize-trailing-slash.js",
       "name": "default",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/looking-for-talent/page:app/looking-for-talent/page"
       ],
       "async": false
     },
@@ -9041,7 +9353,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/add-path-prefix.js",
       "name": "*",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/looking-for-talent/page:app/looking-for-talent/page"
       ],
       "async": false
     },
@@ -9049,7 +9361,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/add-path-prefix.js",
       "name": "*",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/looking-for-talent/page:app/looking-for-talent/page"
       ],
       "async": false
     },
@@ -9057,7 +9369,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/add-path-prefix.js",
       "name": "",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/looking-for-talent/page:app/looking-for-talent/page"
       ],
       "async": false
     },
@@ -9065,7 +9377,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/add-path-prefix.js",
       "name": "",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/looking-for-talent/page:app/looking-for-talent/page"
       ],
       "async": false
     },
@@ -9073,7 +9385,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/add-path-prefix.js",
       "name": "__esModule",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/looking-for-talent/page:app/looking-for-talent/page"
       ],
       "async": false
     },
@@ -9081,7 +9393,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/add-path-prefix.js",
       "name": "__esModule",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/looking-for-talent/page:app/looking-for-talent/page"
       ],
       "async": false
     },
@@ -9089,7 +9401,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/add-path-prefix.js",
       "name": "addPathPrefix",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/looking-for-talent/page:app/looking-for-talent/page"
       ],
       "async": false
     },
@@ -9097,7 +9409,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/add-path-prefix.js",
       "name": "addPathPrefix",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/looking-for-talent/page:app/looking-for-talent/page"
       ],
       "async": false
     },
@@ -9313,7 +9625,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/parse-path.js",
       "name": "*",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/looking-for-talent/page:app/looking-for-talent/page"
       ],
       "async": false
     },
@@ -9321,7 +9633,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/parse-path.js",
       "name": "*",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/looking-for-talent/page:app/looking-for-talent/page"
       ],
       "async": false
     },
@@ -9329,7 +9641,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/parse-path.js",
       "name": "",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/looking-for-talent/page:app/looking-for-talent/page"
       ],
       "async": false
     },
@@ -9337,7 +9649,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/parse-path.js",
       "name": "",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/looking-for-talent/page:app/looking-for-talent/page"
       ],
       "async": false
     },
@@ -9345,7 +9657,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/parse-path.js",
       "name": "__esModule",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/looking-for-talent/page:app/looking-for-talent/page"
       ],
       "async": false
     },
@@ -9353,7 +9665,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/parse-path.js",
       "name": "__esModule",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/looking-for-talent/page:app/looking-for-talent/page"
       ],
       "async": false
     },
@@ -9361,7 +9673,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/parse-path.js",
       "name": "parsePath",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/looking-for-talent/page:app/looking-for-talent/page"
       ],
       "async": false
     },
@@ -9369,7 +9681,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/parse-path.js",
       "name": "parsePath",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/looking-for-talent/page:app/looking-for-talent/page"
       ],
       "async": false
     },
@@ -9377,7 +9689,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/remove-trailing-slash.js",
       "name": "*",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/looking-for-talent/page:app/looking-for-talent/page"
       ],
       "async": false
     },
@@ -9385,7 +9697,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/remove-trailing-slash.js",
       "name": "*",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/looking-for-talent/page:app/looking-for-talent/page"
       ],
       "async": false
     },
@@ -9393,7 +9705,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/remove-trailing-slash.js",
       "name": "",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/looking-for-talent/page:app/looking-for-talent/page"
       ],
       "async": false
     },
@@ -9401,7 +9713,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/remove-trailing-slash.js",
       "name": "",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/looking-for-talent/page:app/looking-for-talent/page"
       ],
       "async": false
     },
@@ -9409,7 +9721,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/remove-trailing-slash.js",
       "name": "__esModule",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/looking-for-talent/page:app/looking-for-talent/page"
       ],
       "async": false
     },
@@ -9417,7 +9729,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/remove-trailing-slash.js",
       "name": "__esModule",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/looking-for-talent/page:app/looking-for-talent/page"
       ],
       "async": false
     },
@@ -9425,7 +9737,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/remove-trailing-slash.js",
       "name": "removeTrailingSlash",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/looking-for-talent/page:app/looking-for-talent/page"
       ],
       "async": false
     },
@@ -9433,7 +9745,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/remove-trailing-slash.js",
       "name": "removeTrailingSlash",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/looking-for-talent/page:app/looking-for-talent/page"
       ],
       "async": false
     },
@@ -9443,6 +9755,1654 @@ self.__RSC_MANIFEST={
       "chunks": [
         "static/css/app/layout.css"
       ]
+    },
+    "/Users/n1c0/dev/goodhive-app/app/components/button.tsx": {
+      "id": "(app-client)/./app/components/button.tsx",
+      "name": "*",
+      "chunks": [
+        "app/design/page:app/design/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/app/components/button.tsx#": {
+      "id": "(app-client)/./app/components/button.tsx",
+      "name": "",
+      "chunks": [
+        "app/design/page:app/design/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/app/components/button.tsx#Button": {
+      "id": "(app-client)/./app/components/button.tsx",
+      "name": "Button",
+      "chunks": [
+        "app/design/page:app/design/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/app/components/card.tsx": {
+      "id": "(app-client)/./app/components/card.tsx",
+      "name": "*",
+      "chunks": [
+        "app/design/page:app/design/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/app/components/card.tsx#": {
+      "id": "(app-client)/./app/components/card.tsx",
+      "name": "",
+      "chunks": [
+        "app/design/page:app/design/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/app/components/card.tsx#Card": {
+      "id": "(app-client)/./app/components/card.tsx",
+      "name": "Card",
+      "chunks": [
+        "app/design/page:app/design/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/app/components/icon-button.tsx": {
+      "id": "(app-client)/./app/components/icon-button.tsx",
+      "name": "*",
+      "chunks": [
+        "app/design/page:app/design/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/app/components/icon-button.tsx#": {
+      "id": "(app-client)/./app/components/icon-button.tsx",
+      "name": "",
+      "chunks": [
+        "app/design/page:app/design/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/app/components/icon-button.tsx#IconButton": {
+      "id": "(app-client)/./app/components/icon-button.tsx",
+      "name": "IconButton",
+      "chunks": [
+        "app/design/page:app/design/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/app/components/input.tsx": {
+      "id": "(app-client)/./app/components/input.tsx",
+      "name": "*",
+      "chunks": [
+        "app/design/page:app/design/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/app/components/input.tsx#": {
+      "id": "(app-client)/./app/components/input.tsx",
+      "name": "",
+      "chunks": [
+        "app/design/page:app/design/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/app/components/input.tsx#Input": {
+      "id": "(app-client)/./app/components/input.tsx",
+      "name": "Input",
+      "chunks": [
+        "app/design/page:app/design/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/app/components/nav-bar.tsx": {
+      "id": "(app-client)/./app/components/nav-bar.tsx",
+      "name": "*",
+      "chunks": [
+        "app/design/page:app/design/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/app/components/nav-bar.tsx#": {
+      "id": "(app-client)/./app/components/nav-bar.tsx",
+      "name": "",
+      "chunks": [
+        "app/design/page:app/design/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/app/components/nav-bar.tsx#NavBar": {
+      "id": "(app-client)/./app/components/nav-bar.tsx",
+      "name": "NavBar",
+      "chunks": [
+        "app/design/page:app/design/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/app/design/page.tsx": {
+      "id": "(app-client)/./app/design/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/design/page:app/design/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/app/design/page.tsx#": {
+      "id": "(app-client)/./app/design/page.tsx",
+      "name": "",
+      "chunks": [
+        "app/design/page:app/design/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/app/design/page.tsx#default": {
+      "id": "(app-client)/./app/design/page.tsx",
+      "name": "default",
+      "chunks": [
+        "app/design/page:app/design/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/client/add-locale.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/add-locale.js",
+      "name": "*",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/client/add-locale.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/add-locale.js",
+      "name": "*",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/client/add-locale.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/add-locale.js",
+      "name": "",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/client/add-locale.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/add-locale.js",
+      "name": "",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/client/add-locale.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/add-locale.js",
+      "name": "default",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/client/add-locale.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/add-locale.js",
+      "name": "default",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/client/components/noop-head.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/noop-head.js",
+      "name": "*",
+      "chunks": [
+        "app/design/page:app/design/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/client/components/noop-head.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/noop-head.js",
+      "name": "*",
+      "chunks": [
+        "app/design/page:app/design/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/client/components/noop-head.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/noop-head.js",
+      "name": "",
+      "chunks": [
+        "app/design/page:app/design/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/client/components/noop-head.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/noop-head.js",
+      "name": "",
+      "chunks": [
+        "app/design/page:app/design/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/client/components/noop-head.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/noop-head.js",
+      "name": "default",
+      "chunks": [
+        "app/design/page:app/design/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/client/components/noop-head.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/noop-head.js",
+      "name": "default",
+      "chunks": [
+        "app/design/page:app/design/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/client/get-domain-locale.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/get-domain-locale.js",
+      "name": "*",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/client/get-domain-locale.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/get-domain-locale.js",
+      "name": "*",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/client/get-domain-locale.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/get-domain-locale.js",
+      "name": "",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/client/get-domain-locale.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/get-domain-locale.js",
+      "name": "",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/client/get-domain-locale.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/get-domain-locale.js",
+      "name": "default",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/client/get-domain-locale.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/get-domain-locale.js",
+      "name": "default",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/client/has-base-path.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/has-base-path.js",
+      "name": "*",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/client/has-base-path.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/has-base-path.js",
+      "name": "*",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/client/has-base-path.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/has-base-path.js",
+      "name": "",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/client/has-base-path.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/has-base-path.js",
+      "name": "",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/client/has-base-path.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/has-base-path.js",
+      "name": "default",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/client/has-base-path.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/has-base-path.js",
+      "name": "default",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/client/link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/client/link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/client/link.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/client/link.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/client/link.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/client/link.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/client/request-idle-callback.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/request-idle-callback.js",
+      "name": "*",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/client/request-idle-callback.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/request-idle-callback.js",
+      "name": "*",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/client/request-idle-callback.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/request-idle-callback.js",
+      "name": "",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/client/request-idle-callback.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/request-idle-callback.js",
+      "name": "",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/client/request-idle-callback.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/request-idle-callback.js",
+      "name": "default",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/client/request-idle-callback.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/request-idle-callback.js",
+      "name": "default",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/client/use-intersection.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/use-intersection.js",
+      "name": "*",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/client/use-intersection.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/use-intersection.js",
+      "name": "*",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/client/use-intersection.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/use-intersection.js",
+      "name": "",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/client/use-intersection.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/use-intersection.js",
+      "name": "",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/client/use-intersection.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/use-intersection.js",
+      "name": "default",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/client/use-intersection.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/use-intersection.js",
+      "name": "default",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/escape-regexp.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
+      "name": "*",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/escape-regexp.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
+      "name": "*",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/escape-regexp.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
+      "name": "",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/escape-regexp.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
+      "name": "",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/escape-regexp.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/escape-regexp.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/escape-regexp.js#escapeStringRegexp": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
+      "name": "escapeStringRegexp",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/escape-regexp.js#escapeStringRegexp": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
+      "name": "escapeStringRegexp",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/router-context.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router-context.js",
+      "name": "*",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/router-context.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router-context.js",
+      "name": "*",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/router-context.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router-context.js",
+      "name": "",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/router-context.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router-context.js",
+      "name": "",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/router-context.js#RouterContext": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router-context.js",
+      "name": "RouterContext",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/router-context.js#RouterContext": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router-context.js",
+      "name": "RouterContext",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/router-context.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router-context.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/router-context.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router-context.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/router/utils/format-url.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
+      "name": "*",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/router/utils/format-url.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
+      "name": "*",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/router/utils/format-url.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
+      "name": "",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/router/utils/format-url.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
+      "name": "",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/router/utils/format-url.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/router/utils/format-url.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/router/utils/format-url.js#formatUrl": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
+      "name": "formatUrl",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/router/utils/format-url.js#formatUrl": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
+      "name": "formatUrl",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/router/utils/format-url.js#formatWithValidation": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
+      "name": "formatWithValidation",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/router/utils/format-url.js#formatWithValidation": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
+      "name": "formatWithValidation",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/router/utils/format-url.js#urlObjectKeys": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
+      "name": "urlObjectKeys",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/router/utils/format-url.js#urlObjectKeys": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
+      "name": "urlObjectKeys",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/router/utils/interpolate-as.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/interpolate-as.js",
+      "name": "*",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/router/utils/interpolate-as.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/interpolate-as.js",
+      "name": "*",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/router/utils/interpolate-as.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/interpolate-as.js",
+      "name": "",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/router/utils/interpolate-as.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/interpolate-as.js",
+      "name": "",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/router/utils/interpolate-as.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/interpolate-as.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/router/utils/interpolate-as.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/interpolate-as.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/router/utils/interpolate-as.js#interpolateAs": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/interpolate-as.js",
+      "name": "interpolateAs",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/router/utils/interpolate-as.js#interpolateAs": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/interpolate-as.js",
+      "name": "interpolateAs",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/router/utils/is-dynamic.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-dynamic.js",
+      "name": "*",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/router/utils/is-dynamic.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-dynamic.js",
+      "name": "*",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/router/utils/is-dynamic.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-dynamic.js",
+      "name": "",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/router/utils/is-dynamic.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-dynamic.js",
+      "name": "",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/router/utils/is-dynamic.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-dynamic.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/router/utils/is-dynamic.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-dynamic.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/router/utils/is-dynamic.js#isDynamicRoute": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-dynamic.js",
+      "name": "isDynamicRoute",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/router/utils/is-dynamic.js#isDynamicRoute": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-dynamic.js",
+      "name": "isDynamicRoute",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/router/utils/is-local-url.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-local-url.js",
+      "name": "*",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/router/utils/is-local-url.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-local-url.js",
+      "name": "*",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/router/utils/is-local-url.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-local-url.js",
+      "name": "",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/router/utils/is-local-url.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-local-url.js",
+      "name": "",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/router/utils/is-local-url.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-local-url.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/router/utils/is-local-url.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-local-url.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/router/utils/is-local-url.js#isLocalURL": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-local-url.js",
+      "name": "isLocalURL",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/router/utils/is-local-url.js#isLocalURL": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-local-url.js",
+      "name": "isLocalURL",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/router/utils/omit.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/omit.js",
+      "name": "*",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/router/utils/omit.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/omit.js",
+      "name": "*",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/router/utils/omit.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/omit.js",
+      "name": "",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/router/utils/omit.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/omit.js",
+      "name": "",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/router/utils/omit.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/omit.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/router/utils/omit.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/omit.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/router/utils/omit.js#omit": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/omit.js",
+      "name": "omit",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/router/utils/omit.js#omit": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/omit.js",
+      "name": "omit",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js",
+      "name": "*",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/router/utils/path-has-prefix.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js",
+      "name": "*",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js",
+      "name": "",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/router/utils/path-has-prefix.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js",
+      "name": "",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/router/utils/path-has-prefix.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js#pathHasPrefix": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js",
+      "name": "pathHasPrefix",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/router/utils/path-has-prefix.js#pathHasPrefix": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js",
+      "name": "pathHasPrefix",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/router/utils/querystring.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
+      "name": "*",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/router/utils/querystring.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
+      "name": "*",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/router/utils/querystring.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
+      "name": "",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/router/utils/querystring.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
+      "name": "",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/router/utils/querystring.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/router/utils/querystring.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/router/utils/querystring.js#assign": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
+      "name": "assign",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/router/utils/querystring.js#assign": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
+      "name": "assign",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/router/utils/querystring.js#searchParamsToUrlQuery": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
+      "name": "searchParamsToUrlQuery",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/router/utils/querystring.js#searchParamsToUrlQuery": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
+      "name": "searchParamsToUrlQuery",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/router/utils/querystring.js#urlQueryToSearchParams": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
+      "name": "urlQueryToSearchParams",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/router/utils/querystring.js#urlQueryToSearchParams": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
+      "name": "urlQueryToSearchParams",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/router/utils/resolve-href.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/resolve-href.js",
+      "name": "*",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/router/utils/resolve-href.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/resolve-href.js",
+      "name": "*",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/router/utils/resolve-href.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/resolve-href.js",
+      "name": "",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/router/utils/resolve-href.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/resolve-href.js",
+      "name": "",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/router/utils/resolve-href.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/resolve-href.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/router/utils/resolve-href.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/resolve-href.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/router/utils/resolve-href.js#resolveHref": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/resolve-href.js",
+      "name": "resolveHref",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/router/utils/resolve-href.js#resolveHref": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/resolve-href.js",
+      "name": "resolveHref",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/router/utils/route-matcher.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-matcher.js",
+      "name": "*",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/router/utils/route-matcher.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-matcher.js",
+      "name": "*",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/router/utils/route-matcher.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-matcher.js",
+      "name": "",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/router/utils/route-matcher.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-matcher.js",
+      "name": "",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/router/utils/route-matcher.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-matcher.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/router/utils/route-matcher.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-matcher.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/router/utils/route-matcher.js#getRouteMatcher": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-matcher.js",
+      "name": "getRouteMatcher",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/router/utils/route-matcher.js#getRouteMatcher": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-matcher.js",
+      "name": "getRouteMatcher",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/router/utils/route-regex.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
+      "name": "*",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/router/utils/route-regex.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
+      "name": "*",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/router/utils/route-regex.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
+      "name": "",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/router/utils/route-regex.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
+      "name": "",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/router/utils/route-regex.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/router/utils/route-regex.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/router/utils/route-regex.js#getNamedMiddlewareRegex": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
+      "name": "getNamedMiddlewareRegex",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/router/utils/route-regex.js#getNamedMiddlewareRegex": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
+      "name": "getNamedMiddlewareRegex",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/router/utils/route-regex.js#getNamedRouteRegex": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
+      "name": "getNamedRouteRegex",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/router/utils/route-regex.js#getNamedRouteRegex": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
+      "name": "getNamedRouteRegex",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/router/utils/route-regex.js#getRouteRegex": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
+      "name": "getRouteRegex",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/router/utils/route-regex.js#getRouteRegex": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
+      "name": "getRouteRegex",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/utils.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "*",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/utils.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "*",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/utils.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/utils.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/utils.js#DecodeError": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "DecodeError",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/utils.js#DecodeError": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "DecodeError",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/utils.js#MiddlewareNotFoundError": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "MiddlewareNotFoundError",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/utils.js#MiddlewareNotFoundError": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "MiddlewareNotFoundError",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/utils.js#MissingStaticPage": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "MissingStaticPage",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/utils.js#MissingStaticPage": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "MissingStaticPage",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/utils.js#NormalizeError": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "NormalizeError",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/utils.js#NormalizeError": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "NormalizeError",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/utils.js#PageNotFoundError": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "PageNotFoundError",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/utils.js#PageNotFoundError": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "PageNotFoundError",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/utils.js#SP": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "SP",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/utils.js#SP": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "SP",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/utils.js#ST": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "ST",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/utils.js#ST": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "ST",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/utils.js#WEB_VITALS": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "WEB_VITALS",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/utils.js#WEB_VITALS": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "WEB_VITALS",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/utils.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/utils.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/utils.js#execOnce": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "execOnce",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/utils.js#execOnce": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "execOnce",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/utils.js#getDisplayName": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "getDisplayName",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/utils.js#getDisplayName": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "getDisplayName",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/utils.js#getLocationOrigin": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "getLocationOrigin",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/utils.js#getLocationOrigin": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "getLocationOrigin",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/utils.js#getURL": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "getURL",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/utils.js#getURL": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "getURL",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/utils.js#isAbsoluteUrl": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "isAbsoluteUrl",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/utils.js#isAbsoluteUrl": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "isAbsoluteUrl",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/utils.js#isResSent": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "isResSent",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/utils.js#isResSent": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "isResSent",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/utils.js#loadGetInitialProps": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "loadGetInitialProps",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/utils.js#loadGetInitialProps": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "loadGetInitialProps",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/shared/lib/utils.js#normalizeRepeatedSlashes": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "normalizeRepeatedSlashes",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
+    },
+    "/Users/n1c0/dev/goodhive-app/node_modules/next/dist/esm/shared/lib/utils.js#normalizeRepeatedSlashes": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "normalizeRepeatedSlashes",
+      "chunks": [
+        "app/looking-for-talent/page:app/looking-for-talent/page"
+      ],
+      "async": false
     },
     "/Users/n1c0/dev/goodhive-app/node_modules/next/font/google/target.css?{\"path\":\"app/page.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
       "id": "null",
