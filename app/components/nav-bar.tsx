@@ -1,17 +1,41 @@
 "use client";
 
+import { Route } from "next";
 import Link from "next/link";
 import Image from "next/image";
-import { Route } from "next";
 
 import { useState } from "react";
+import { usePathname } from "next/navigation";
 
-interface Props {
-  links: [];
-}
+const commonLinks = [
+  { href: "/talents", label: "Talent" },
+  { href: "/companies", label: "Companies" },
+  { href: "/about-us", label: "About Us" },
+];
 
-export const NavBar = ({ links }: Props) => {
+const talentsLinks = [
+  { href: "/talents/job-search", label: "Job Search" },
+  { href: "/talents/my-applications", label: "My Applications" },
+  { href: "/talents/manage-jobs", label: "Manage Jobs" },
+  { href: "/talents/my-profile", label: "My Profile" },
+];
+
+const companiesLinks = [
+  { href: "/companies/search-talents", label: "Search Talents" },
+  { href: "/companies/my-applications", label: "My Applications" },
+];
+
+export const NavBar = () => {
   const [isOpenMobileMenu, setIsOpenMobileMenu] = useState(false);
+
+  const pathname = usePathname();
+
+  const links =
+    pathname === "/talents"
+      ? talentsLinks
+      : pathname === "/companies"
+      ? companiesLinks
+      : commonLinks;
 
   return (
     <header aria-label="Site Header" className="bg-black ">

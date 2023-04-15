@@ -2,17 +2,6 @@ import "./globals.css";
 
 import { NavBar } from "./components/nav-bar";
 
-export const metadata = {
-  title: "GoodHive",
-  description: "Freelancing for the future",
-};
-
-const links = [
-  { href: "/talents", label: "Talent" },
-  { href: "/companies", label: "Companies" },
-  { href: "/about", label: "About Us" },
-];
-
 export default function RootLayout({
   children,
 }: {
@@ -21,8 +10,17 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <NavBar links={links} />
+        <NavBar />
         {children}
+        <footer className="mx-5 text-sm">
+          <a
+            href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Powered by GoodHive
+          </a>
+        </footer>
       </body>
     </html>
   );
