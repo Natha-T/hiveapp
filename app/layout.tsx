@@ -1,5 +1,7 @@
 import "./globals.css";
 
+import { NavBar } from "./components/nav-bar";
+
 export const metadata = {
   title: "GoodHive",
   description: "Freelancing for the future",
@@ -12,7 +14,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <NavBar />
+        {children}
+      </body>
     </html>
   );
 }
