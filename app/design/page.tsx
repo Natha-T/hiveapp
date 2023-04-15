@@ -57,59 +57,59 @@ export default function Design() {
 
         <section className="mt-5 body-font font-montserrat">
           <h2 className="text-2xl font-bold">Typography</h2>
-          <p className="m-3 font-light text-sm">Font family: Montserrat</p>
-          <div className="grid min-w-full grid-cols-1 grid-flow-row sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-2 2xl:grid-cols-2 3xl:grid-cols-2 4xl:grid-cols-3 gap-3">
-            <div className="bg-gray-200 grid justify-items-left p-5 mx-10 rounded-lg space-y-2">
+          <p className="m-3 text-sm font-light">Font family: Montserrat</p>
+          <div className="grid min-w-full grid-flow-row grid-cols-1 gap-3 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-2 2xl:grid-cols-2 3xl:grid-cols-2 4xl:grid-cols-3">
+            <div className="grid p-5 mx-10 space-y-2 bg-gray-200 rounded-lg justify-items-left">
               <h3 className="text-xl font-semibold">Headlines</h3>
-              <div className="flex space-x-3 items-center">
+              <div className="flex items-center space-x-3">
                 <h1 className="text-3xl font-bold">H1</h1>
                 <p>text-3xl font-bold</p>
               </div>
-              <div className="flex space-x-3 items-center">
+              <div className="flex items-center space-x-3">
                 <h2 className="text-2xl font-bold">H2</h2>
                 <p>text-2xl font-bold</p>
               </div>
-              <div className="flex space-x-3 items-center">
+              <div className="flex items-center space-x-3">
                 <h3 className="text-xl font-bold">H3</h3>
                 <p>text-xl font-bold</p>
               </div>
-              <div className="flex space-x-3 items-center">
+              <div className="flex items-center space-x-3">
                 <h4 className="text-base font-bold">H4</h4>
                 <p>text-base font-bold</p>
               </div>
             </div>
 
-            <div className="bg-gray-200 grid justify-items-left p-5 mx-10 rounded-lg space-y-2">
+            <div className="grid p-5 mx-10 space-y-2 bg-gray-200 rounded-lg justify-items-left">
               <h3 className="text-xl font-semibold">Text</h3>
-              <div className="flex space-x-3 items-center">
+              <div className="flex items-center space-x-3">
                 <h1 className="text-2xl">Subtitle 1</h1>
                 <p>text-2xl</p>
               </div>
-              <div className="flex space-x-3 items-center">
+              <div className="flex items-center space-x-3">
                 <h2 className="text-base font-semibold">Body 1</h2>
                 <p>text-base font-semibold</p>
               </div>
-              <div className="flex space-x-3 items-center">
+              <div className="flex items-center space-x-3">
                 <h3 className="text-base">Body 2</h3>
                 <p>text-base</p>
               </div>
-              <div className="flex space-x-3 items-center">
+              <div className="flex items-center space-x-3">
                 <h4 className="text-sm">Body 3</h4>
                 <p>text-sm</p>
               </div>
             </div>
 
-            <div className="bg-gray-200 grid justify-items-left p-5 mx-10 rounded-lg space-y-2">
+            <div className="grid p-5 mx-10 space-y-2 bg-gray-200 rounded-lg justify-items-left">
               <h3 className="text-xl font-semibold">Buttons</h3>
-              <div className="flex space-x-3 items-center">
+              <div className="flex items-center space-x-3">
                 <h1 className="text-base font-semibold">Large</h1>
                 <p>text-base font-semibold</p>
               </div>
-              <div className="flex space-x-3 items-center">
+              <div className="flex items-center space-x-3">
                 <h2 className="text-base">Medium</h2>
                 <p>text-base</p>
               </div>
-              <div className="flex space-x-3 items-center">
+              <div className="flex items-center space-x-3">
                 <h4 className="text-sm">Small</h4>
                 <p>text-sm</p>
               </div>
@@ -119,18 +119,18 @@ export default function Design() {
 
         <section className="mt-5 body-font font-montserrat">
           <h2 className="text-2xl font-bold">Buttons</h2>
-          <div className="grid min-w-full grid-cols-1 grid-flow-row sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-2 2xl:grid-cols-2 3xl:grid-cols-2 4xl:grid-cols-3 gap-3">
-            <div className="grid justify-items-center mx-10">
+          <div className="grid min-w-full grid-flow-row grid-cols-1 gap-3 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-2 2xl:grid-cols-2 3xl:grid-cols-2 4xl:grid-cols-3">
+            <div className="grid mx-10 justify-items-center">
               <h3 className="mt-5 text-xl">Primary Buttons</h3>
               <Button text="Large" type="primary" size="large"></Button>
               <Button text="Medium" type="primary" size="medium"></Button>
             </div>
-            <div className="grid justify-items-center mx-10">
+            <div className="grid mx-10 justify-items-center">
               <h3 className="mt-5 text-xl">Secondary Buttons</h3>
               <Button text="Large" type="secondary" size="large"></Button>
               <Button text="Medium" type="secondary" size="medium"></Button>
             </div>
-            <div className="grid justify-items-center mx-10">
+            <div className="grid mx-10 justify-items-center">
               <h3 className="mt-5 text-xl">Icon Buttons</h3>
               <IconButton
                 text="Large"
@@ -154,8 +154,8 @@ export default function Design() {
 
         <section className="mt-5 body-font font-montserrat">
           <h2 className="text-2xl font-bold">Cards</h2>
-          <h3 className="text-xl mt-2">Company Card</h3>
-          <div className="grid min-w-full grid-cols-1 grid-flow-row sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-2 2xl:grid-cols-2 3xl:grid-cols-2 4xl:grid-cols-3 gap-3">
+          <h3 className="mt-2 text-xl">Company Card</h3>
+          <div className="grid min-w-full grid-flow-row grid-cols-1 gap-3 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-2 2xl:grid-cols-2 3xl:grid-cols-2 4xl:grid-cols-3">
             <Card
               type="company"
               title="Job Title 1"
@@ -203,7 +203,7 @@ export default function Design() {
             />
           </div>
           <h3 className="mt-5 text-xl">Talent Card</h3>
-          <div className="grid min-w-full grid-cols-1 grid-flow-row sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-2 2xl:grid-cols-2 3xl:grid-cols-2 4xl:grid-cols-3 gap-3">
+          <div className="grid min-w-full grid-flow-row grid-cols-1 gap-3 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-2 2xl:grid-cols-2 3xl:grid-cols-2 4xl:grid-cols-3">
             <Card
               type="talent"
               title="Talent 1 Position"
@@ -254,7 +254,7 @@ export default function Design() {
 
         <section className="mt-5 body-font font-montserrat">
           <h2 className="text-2xl font-bold">Inputs</h2>
-          <div className="grid min-w-full grid-cols-1 grid-flow-row sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-2 2xl:grid-cols-2 3xl:grid-cols-2 4xl:grid-cols-3 gap-3">
+          <div className="grid min-w-full grid-flow-row grid-cols-1 gap-3 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-2 2xl:grid-cols-2 3xl:grid-cols-2 4xl:grid-cols-3">
             <Input
               labelText="Text Input*"
               placeholder="Enter a text"

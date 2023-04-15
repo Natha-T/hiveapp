@@ -1,21 +1,21 @@
-import { FC } from 'react'
+import { FC } from "react";
 
-import { Button } from '../components/button'
+import { Button } from "../components/button";
 
 interface Props {
-  type: string
-  title: string
-  postedBy: string
-  postedOn: string
-  image: string
-  countryFlag: string
-  city: string
-  rate: string
-  currency: string
-  description: string
-  skills: string[]
-  buttonText: string
-  escrowFee: string
+  type: string;
+  title: string;
+  postedBy: string;
+  postedOn: string;
+  image: string;
+  countryFlag: string;
+  city: string;
+  rate: string;
+  currency: string;
+  description: string;
+  skills: string[];
+  buttonText: string;
+  escrowFee: string;
 }
 
 export const Card: FC<Props> = ({
@@ -33,15 +33,15 @@ export const Card: FC<Props> = ({
   buttonText,
   escrowFee,
 }) => {
-  let escrowIcon = '/img/escrow_icon.png'
-  let ratePerHour = `$${rate} ${currency}/Hour`
-  let escrowDescription = `$${escrowFee}`
+  let escrowIcon = "/img/escrow_icon.png";
+  let ratePerHour = `$${rate} ${currency}/Hour`;
+  let escrowDescription = `$${escrowFee}`;
 
-  if (type === 'talent') {
-    escrowIcon = '/img/white_space.png'
-    escrowDescription = ''
+  if (type === "talent") {
+    escrowIcon = "/img/white_space.png";
+    escrowDescription = "";
   } else {
-    ratePerHour = ''
+    ratePerHour = "";
   }
 
   return (
@@ -94,5 +94,5 @@ export const Card: FC<Props> = ({
         </div>
       </div>
     </div>
-  )
-}
+  );
+};

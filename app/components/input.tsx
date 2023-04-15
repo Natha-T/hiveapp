@@ -1,13 +1,13 @@
-import { FC } from 'react'
+import { FC } from "react";
 
 interface Props {
-  labelText: string
-  placeholder: string
-  type: string
-  required: boolean
-  disabled: boolean
-  value: string | number
-  onChange: any
+  labelText: string;
+  placeholder: string;
+  type: string;
+  required: boolean;
+  disabled: boolean;
+  value: string | number;
+  onChange: any;
 }
 
 export const Input: FC<Props> = ({
@@ -20,14 +20,14 @@ export const Input: FC<Props> = ({
   onChange,
 }) => {
   let inputStyle =
-    'form-control block w-full px-4 py-2 text-base font-normal text-gray-600 bg-white bg-clip-padding border border-solid border-[#FFC905] rounded-full hover:shadow-lg transition ease-in-out m-0 focus:text-black focus:bg-white focus:border-[#FF8C05] focus:outline-none'
+    "form-control block w-full px-4 py-2 text-base font-normal text-gray-600 bg-white bg-clip-padding border border-solid border-[#FFC905] rounded-full hover:shadow-lg transition ease-in-out m-0 focus:text-black focus:bg-white focus:border-[#FF8C05] focus:outline-none";
   if (disabled) {
     inputStyle =
-      'form-control block w-full px-4 py-2 text-base font-light text-gray-200 bg-white bg-clip-padding border border-solid border-[#FFF2CE] rounded-full'
+      "form-control block w-full px-4 py-2 text-base font-light text-gray-200 bg-white bg-clip-padding border border-solid border-[#FFF2CE] rounded-full";
   }
   return (
     <div>
-      <label className="form-label inline-block ml-3 text-black text-base">
+      <label className="inline-block ml-3 text-base text-black form-label">
         {labelText}
       </label>
       <input
@@ -40,5 +40,5 @@ export const Input: FC<Props> = ({
         onChange={onChange}
       />
     </div>
-  )
-}
+  );
+};
