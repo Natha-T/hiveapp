@@ -30,12 +30,11 @@ export const NavBar = () => {
 
   const pathname = usePathname();
 
-  const links =
-    pathname === "/talents"
-      ? talentsLinks
-      : pathname === "/companies"
-      ? companiesLinks
-      : commonLinks;
+  const links = pathname.startsWith("/talents")
+    ? talentsLinks
+    : pathname.startsWith("/companies")
+    ? companiesLinks
+    : commonLinks;
 
   return (
     <header aria-label="Site Header" className="bg-black ">
