@@ -7,6 +7,12 @@ export const metadata = {
   description: "Freelancing for the future",
 };
 
+const links = [
+  { href: "/talents", label: "Talent" },
+  { href: "/companies", label: "Companies" },
+  { href: "/about", label: "About Us" },
+];
+
 export default function RootLayout({
   children,
 }: {
@@ -15,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <NavBar />
+        <NavBar links={links} />
         {children}
       </body>
     </html>
