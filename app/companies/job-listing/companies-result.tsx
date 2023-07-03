@@ -1,7 +1,9 @@
 "use client";
 import { CompaniesCard } from "../../components/companies-card";
 
-export default function CompaniesResult() {
+export default function CompaniesResult({ companie }) {
+  console.log(companie);
+
   return (
     <div className="flex flex-col min-w-full">
       <CompaniesCard
@@ -18,6 +20,23 @@ export default function CompaniesResult() {
         telegram=""
         buttonText="Connect"
       />
+      {companie.map((company) => (
+        <CompaniesCard
+          key={company.id}
+          designation={company.designation}
+          image={company.image_url || "/img/company_img.png"}
+          website={company.website}
+          details={company.details}
+          mail={company.email}
+          phoneNumber={company.phoneNumber}
+          country={company.country}
+          city={company.city}
+          address={company.address}
+          countryFlag="/img/country_flag.png"
+          telegram={company.telegram}
+          buttonText="Connect"
+        />
+      ))}
     </div>
   );
 }
